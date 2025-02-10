@@ -1,0 +1,35 @@
+# Исключаем системные и конфигурационные файлы
+.git
+.vscode
+.vscode/
+*.code-workspace
+
+# Базы данных и переменные окружения
+db.sqlite3
+.env
+**/.env
+
+# Виртуальные окружения
+.venv
+_taski-docker_venv
+env/
+venv/
+
+# Кэш и временные файлы Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Системные файлы (для macOS и Windows)
+.DS_Store
+Thumbs.db

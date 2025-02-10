@@ -1,0 +1,40 @@
+# Исключение node_modules и билдов
+node_modules/
+build/
+
+# Файлы локальной среды разработки и конфигурации редакторов
+*.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace
+
+# Файлы логов и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Кэшные файлы и артефакты
+.cache/
+dist/
+out/
+coverage/
+.DS_Store
+Thumbs.db
+
+# Файлы Git
+.git
+.gitignore
+
+# Исключение виртуального окружения Python (в корне проекта)
+_taski-docker_venv
+
+
+# Исключение зависимостей бэкенда
+backend/__pycache__/
+backend/db.sqlite3
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.cache/
